@@ -5,7 +5,7 @@ ADD __main__.py /
 #COPY requirements.txt requirements.txt
 #RUN pip install -r requirements.txt
 RUN pip install bottle
-RUN pip install _version
+#RUN pip install _version
 COPY . .
 CMD [ "python", "./__main__.py" ]
 #docker build -t api-bracelet .
