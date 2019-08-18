@@ -8,5 +8,5 @@ RUN pip install bottle
 RUN pip install _version
 COPY . .
 CMD [ "python", "./_main_.py" ]
-docker build -t api-bracelet .
-docker run api-bracelet
+#docker build -t api-bracelet .
+#docker run api-bracelet
