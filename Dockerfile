@@ -1,5 +1,5 @@
 FROM python:3
-ADD _main_.py .
+ADD ./_main_.py /
 #RUN apk add --no-cache gcc musl-dev linux-headers
 RUN apt-get install -y python python-setuptools python-pip
 #COPY requirements.txt requirements.txt
